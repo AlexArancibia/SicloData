@@ -10,7 +10,7 @@ export default function ClientesList() {
   return (
     <div className="space-y-6">
       <div className="flex justify-between items-center">
-        <h1 className="text-3xl font-bold bg-gradient-to-r from-brand-blue-700 to-brand-emerald-600 bg-clip-text text-transparent">
+        <h1 className="text-3xl font-bold text-gray-900 dark:text-gray-100">
           Gestión de Clientes
         </h1>
       </div>

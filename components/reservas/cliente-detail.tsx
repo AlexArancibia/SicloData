@@ -88,8 +88,8 @@ export default function ClienteDetail({ clienteId }: ClienteDetailProps) {
       </div>
 
       {/* Header del cliente con información principal */}
-      <Card className="border-slate-700 shadow-lg overflow-hidden" style={{ background: 'linear-gradient(to right, #475569, #64748b)' }}>
-        <div className="p-6" style={{ background: 'linear-gradient(to right, #475569, #64748b)' }}>
+      <Card className="border-slate-900 shadow-lg overflow-hidden" style={{ background: 'linear-gradient(to right, #334155, #475569)' }}>
+        <div className="p-6" style={{ background: 'linear-gradient(to right, #334155, #475569)' }}>
           <div className="flex items-center gap-6">
             <div className="w-20 h-20 bg-slate-600 rounded-full flex items-center justify-center border-2 border-emerald-400/30">
               <span className="text-2xl font-bold text-white">

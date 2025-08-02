@@ -105,7 +105,7 @@ export function DataTable<T extends Record<string, any>>({
             <Button
               onClick={downloadExcel}
               variant="outline"
-              className="bg-gradient-to-r from-brand-emerald-500 to-brand-blue-600 text-white border-none hover:from-brand-emerald-600 hover:to-brand-blue-700 shrink-0"
+              className="shrink-0"
             >
               <Download className="h-4 w-4 mr-2" />
               Excel
