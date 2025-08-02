@@ -1,0 +1,85 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer utilities {
+  .text-balance {
+    text-wrap: balance;
+  }
+  .text-pretty {
+    text-wrap: pretty;
+  }
+}
+
+@layer base {
+  :root {
+    --background: 0 0% 100%; /* white */
+    --foreground: 0 0% 3.9%; /* gray-950 */
+    
+    --card: 0 0% 100%; /* white */
+    --card-foreground: 0 0% 3.9%; /* gray-950 */
+    
+    --popover: 0 0% 100%; /* white */
+    --popover-foreground: 0 0% 3.9%; /* gray-950 */
+    
+    --primary: 0 0% 9%; /* gray-900 */
+    --primary-foreground: 0 0% 98%; /* gray-50 */
+    
+    --secondary: 0 0% 96.1%; /* gray-100 */
+    --secondary-foreground: 0 0% 9%; /* gray-900 */
+    
+    --muted: 0 0% 96.1%; /* gray-100 */
+    --muted-foreground: 0 0% 45.1%; /* gray-500 */
+    
+    --accent: 0 0% 96.1%; /* gray-100 */
+    --accent-foreground: 0 0% 9%; /* gray-900 */
+    
+    --destructive: 0 84.2% 60.2%; /* red-500 */
+    --destructive-foreground: 0 0% 98%; /* gray-50 */
+    
+    --border: 0 0% 89.8%; /* gray-200 */
+    --input: 0 0% 89.8%; /* gray-200 */
+    --ring: 0 0% 3.9%; /* gray-950 */
+    
+    --radius: 0.5rem;
+  }
+ 
+  .dark {
+    --background: 0 0% 3.9%; /* gray-950 */
+    --foreground: 0 0% 98%; /* gray-50 */
+    
+    --card: 0 0% 13.9%; /* gray-950 */
+    --card-foreground: 0 0% 98%; /* gray-50 */
+    
+    --popover: 0 0% 3.9%; /* gray-950 */
+    --popover-foreground: 0 0% 98%; /* gray-50 */
+    
+    --primary: 0 0% 98%; /* gray-50 */
+    --primary-foreground: 0 0% 9%; /* gray-900 */
+    
+    --secondary: 0 0% 14.9%; /* gray-800 */
+    --secondary-foreground: 0 0% 98%; /* gray-50 */
+    
+    --muted: 0 0% 14.9%; /* gray-800 */
+    --muted-foreground: 0 0% 55%; /* gray-450 - más sutil */
+    
+    --accent: 0 0% 14.9%; /* gray-800 */
+    --accent-foreground: 0 0% 98%; /* gray-50 */
+    
+    --destructive: 0 62.8% 30.6%; /* red-800 */
+    --destructive-foreground: 0 0% 98%; /* gray-50 */
+    
+    --border: 0 0% 14.9%; /* gray-800 */
+    --input: 0 0% 14.9%; /* gray-800 */
+    --ring: 0 0% 83.1%; /* gray-300 */
+  }
+  
+  * {
+    @apply border-border;
+  }
+  
+  body {
+    @apply bg-background text-foreground;
+    font-feature-settings: "rlig" 1, "calt" 1;
+  }
+}
