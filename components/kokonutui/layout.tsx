@@ -38,7 +38,7 @@ export default function Layout({ children }: LayoutProps) {
           <TopNav />
         </header>
         <main className="flex-1 overflow-auto p-6 bg-gradient-to-br from-gray-50/50 to-white/50 dark:from-gray-900/50 dark:to-gray-800/50">
-          <div className="max-w-7xl mx-auto">{children}</div>
+          <div className="max-w-[1600px] mx-auto">{children}</div>
         </main>
       </div>
     </div>

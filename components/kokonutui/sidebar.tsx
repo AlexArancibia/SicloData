@@ -96,6 +96,9 @@ export default function Sidebar() {
                   <NavItem href="/usuarios" icon={Shield}>
                     Usuarios
                   </NavItem>
+                  <NavItem href="/compras" icon={Home}>
+                    Compras
+                  </NavItem>
                 </div>
               </div>
             </div>
